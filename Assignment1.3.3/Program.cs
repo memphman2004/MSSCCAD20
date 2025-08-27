@@ -9,7 +9,7 @@
         int[] arr = new int[n];
 
         // Prompt to type the numbers one by one.
-        Console.WriteLine("Input " + n + " number of elements in the array :");
+        Console.WriteLine("Input the " + n + " number elements in the array :");
         for (int i = 0; i < n; i++) // loop from 0 up to n-1
         {
             Console.Write("element - " + i + " : "); // show which index we are filling
