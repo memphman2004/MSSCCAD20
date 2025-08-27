@@ -11,9 +11,9 @@
 
         // Create an int array with starting values.
         // The size is automatically the number of values in { }.
-        int[] num2 = { 3, 1, 2 };
+        int[] num2 = [3, 1, 2];
 
-        // Print nums2 using a for loop (arrays are 0-based: first index is 0).
+        // Print num2 using a for loop (arrays are 0-based: first index is 0).
         Console.WriteLine("num2 = ");
         for (int i = 0; i < num2.Length; i++)
         {
@@ -24,7 +24,7 @@
 
 // Another way: explicit 'new' with
 
-int[] num3 = new int[] { 10, 20, 30 };
+int[] num3 = [10, 20, 30];
 
 // Print num3 using a loop.
 Console.WriteLine("num3 = ");

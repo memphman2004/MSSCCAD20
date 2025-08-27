@@ -2,7 +2,7 @@
 // then print in reverse.
 
         // Ask the user how many numbers they would like to input
-        Console.Write("Input the number of elements to store in the array :");
+        Console.WriteLine("Input the number of elements to store in the array :");
         int n = Convert.ToInt32(Console.ReadLine()); // converts the text input to an int
 
         // Create an int array with size n (so it can hold n numbers).
@@ -21,8 +21,8 @@
         Console.WriteLine("The values store into the array are:");
         for (int i = 0; i < n; i++)
         {
-            Console.Write(arr[i]);           // print the number at index i
-            if (i < n - 1) Console.Write(" "); // add a space between numbers, but not after the last
+            Console.WriteLine(arr[i]);           // print the number at index i
+            if (i < n - 1) Console.WriteLine(" "); // add a space between numbers, but not after the last
         }
 
         // Print the values in reverse order (from the last index down to 0).
@@ -30,8 +30,8 @@
         Console.WriteLine("The values store into the array in reverse are :");
         for (int i = n - 1; i >= 0; i--)
         {
-            Console.Write(arr[i]);
-            if (i > 0) Console.Write(" "); // add a space between numbers, but not before the first
+            Console.WriteLine(arr[i]);
+            if (i > 0) Console.WriteLine(" "); // add a space between numbers, but not before the first
         }
     
 

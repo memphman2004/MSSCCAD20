@@ -71,7 +71,7 @@ while (true)
 
     static void AreaOfSquare()
     {
-        // Formula: side^2
+        // Formula: Two sides (side^2)
         double side = ReadNonNegativeDouble("Enter side length: ");
         double area = side * side;
         Console.WriteLine($"Area of Square = {area}");
