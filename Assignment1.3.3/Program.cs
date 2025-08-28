@@ -33,6 +33,6 @@
             Console.WriteLine(arr[i]);
             if (i > 0) Console.WriteLine(" "); // add a space between numbers, but not before the first
         }
-    
 
 
+        Console.WriteLine(); // add a blank line at the end
