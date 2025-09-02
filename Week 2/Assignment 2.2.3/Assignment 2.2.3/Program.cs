@@ -49,7 +49,7 @@ class Program
         Console.WriteLine("Choose a shape:");
         Console.WriteLine("1) Circle");
         Console.WriteLine("2) Square");
-        Console.Write("Enter 1 or 2: ");
+        Console.WriteLine("Enter 1 or 2: ");
         string? choice = Console.ReadLine();
 
         // Read the shared (base) properties once
@@ -106,7 +106,7 @@ class Program
     {
         while (true)
         {
-            Console.Write(prompt);
+            Console.WriteLine(prompt);
             string? s = Console.ReadLine();
             if (!string.IsNullOrWhiteSpace(s)) return s.Trim();
             Console.WriteLine("Please enter some text.");
