@@ -15,7 +15,7 @@ using System.Collections.Generic;  // for List<T>
 // - Class with properties (get/set).
 // - Backing field + custom setter with an 'if' check (validation).
 // - Array property + a loop to print it.
-// - A menu that uses if/else (YES: this is an alternative to switch/case).
+// - A menu that uses switch/case).
 
 
 //Character "data model" class - stores the fields and keeps them consistent
@@ -50,8 +50,8 @@ class CharacterInfo
     }
 
     // These are hard-coded in Main().
-    public string Name { get; set; } = "";   // e.g., "Jake FromStateFarm"
-    public string Job { get; set; } = "";   // e.g., "Insurance Agent"
+    public string Name { get; set; } = "";   // "Jake FromStateFarm"
+    public string Job { get; set; } = "";   // "Insurance Agent"
 
     // Height is left for the user to enter (inches, to keep it simple)
     public int HeightInInches { get; set; } = 0;
