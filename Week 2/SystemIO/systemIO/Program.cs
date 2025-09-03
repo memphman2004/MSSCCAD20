@@ -18,7 +18,7 @@
 // -------------------------------------------------------------
 
 using System;
-using System.IO; // <- Required for file & folder helpers
+using System.IO; // <- Required for file & folder helpers (using directives)
 
 namespace IoForNewbies
 {
@@ -97,7 +97,7 @@ namespace IoForNewbies
             if (File.Exists(filePath))
             {
                 Console.WriteLine("== CONTENT: StreamReader (line-by-line) ==");
-                using (StreamReader sr = new StreamReader(filePath))
+                using (StreamReader sr = new StreamReader(filePath))// no append here, just reading (Using Statement)
                 {
                     string? line;
                     while ((line = sr.ReadLine()) != null) // null when end-of-file
@@ -112,12 +112,12 @@ namespace IoForNewbies
             // ---------------------------------------------------------
             // We printed the full path earlier. You can copy/paste it into
             // File Explorer (Windows) or Finder (macOS).
-            
+
             Console.WriteLine($"\nYour file lives here:\n{filePath}");
 
             // Keep the console open so you can read the output.
             Console.WriteLine("\nPress any key to exit...");
-            Console.ReadKey();
+            Console.ReadKey(); // Keeps the console window open
         }
     }
 }
