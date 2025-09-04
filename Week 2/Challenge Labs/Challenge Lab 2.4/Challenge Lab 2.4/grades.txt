@@ -1,0 +1,34 @@
+========================================================
+Timestamp : 9/4/2025 12:00:02 PM
+Grader ID : 2365478
+Student ID: 54
+Name      : stanley cup
+DOB       : 10/19/1989
+Subjects  :
+  English       23  (F)
+  Math          45  (F)
+  Science       98  (A)
+  Literature    95  (A)
+  Recess       100  (A)
+  Lunch        100  (A)
+Average   : 76.83%
+GPA       : 3.07
+Rank      : 59 / 250
+Percentile: 76.8%
+========================================================
+Timestamp : 9/4/2025 12:02:09 PM
+Grader ID : 254784
+Student ID: 65
+Name      : James brown
+DOB       : 10/15/1935
+Subjects  :
+  English       36  (F)
+  Math          98  (A)
+  Science       95  (A)
+  Literature    58  (F)
+  Recess       100  (A)
+  Lunch        100  (A)
+Average   : 81.17%
+GPA       : 3.25
+Rank      : 48 / 250
+Percentile: 81.2%
