@@ -21,8 +21,12 @@ class Program
         return -1;
     }
 
-    // Using the BCL helper
-    public static int SearchBuiltIn(int[] arr, int item) =>
-        Array.IndexOf(arr, item);
+    // Using the Base Class Library (BCL) helper
+    public static int SearchBuiltIn(int[] arr, int item) => // SearchBuiltIn is a wrapper that uses the built-in .NET 
+                                                           // function to find an item in an array.
+     Array.IndexOf(arr, item);
 }
 
+// search vs searchbuiltIn
+// search is a manual implementation of a linear search algorithm, 
+// while searchBuiltIn uses the built-in Array.IndexOf method provided by the .NET framework.

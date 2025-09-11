@@ -40,7 +40,7 @@ class Program
             if (double.TryParse(s, out double value) && value >= 0)
                 return value;
 
-            Console.WriteLine("Please enter a non-negative number (e.g., 0, 2.5, 10).");
+            Console.WriteLine("Please enter a POSITIVE number (e.g., 0, 2.5, 10).");
         }
     }
 }
@@ -54,7 +54,7 @@ public class Circle
     public Circle(double radius)
     {
         if (radius < 0)
-            throw new ArgumentOutOfRangeException(nameof(radius), "Radius must be non-negative.");
+            throw new ArgumentOutOfRangeException(nameof(radius), "Radius must be a POSITIVE number.");
         Radius = radius;
     }
 
