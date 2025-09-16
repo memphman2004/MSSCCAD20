@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         // Ask how many numbers the user will enter
-        Console.Write("Input the number of elements to be stored in the array : ");
+        Console.Write("Provide the number of elements to be stored in the array : ");
         int n = int.Parse(Console.ReadLine() ?? "0"); // (assumes the user types a valid whole number)
 
         // Create array to hold the numbers
