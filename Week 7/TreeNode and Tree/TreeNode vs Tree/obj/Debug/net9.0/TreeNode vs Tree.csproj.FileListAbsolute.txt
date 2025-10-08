@@ -1,0 +1,5 @@
+/Volumes/Mac Mini/Coding Projects/MSSCCAD20/MSSCCAD20/Week 7/TreeNode and Tree/TreeNode vs Tree/obj/Debug/net9.0/TreeNode vs Tree.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Mac Mini/Coding Projects/MSSCCAD20/MSSCCAD20/Week 7/TreeNode and Tree/TreeNode vs Tree/obj/Debug/net9.0/TreeNode vs Tree.AssemblyInfoInputs.cache
+/Volumes/Mac Mini/Coding Projects/MSSCCAD20/MSSCCAD20/Week 7/TreeNode and Tree/TreeNode vs Tree/obj/Debug/net9.0/TreeNode vs Tree.AssemblyInfo.cs
+/Volumes/Mac Mini/Coding Projects/MSSCCAD20/MSSCCAD20/Week 7/TreeNode and Tree/TreeNode vs Tree/obj/Debug/net9.0/TreeNode vs Tree.csproj.CoreCompileInputs.cache
+/Volumes/Mac Mini/Coding Projects/MSSCCAD20/MSSCCAD20/Week 7/TreeNode and Tree/TreeNode vs Tree/obj/Debug/net9.0/TreeNode vs Tree.sourcelink.json
